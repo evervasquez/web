@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block contenido %}
+<div class="container">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <div class="navbar-inner">
+        <div class="page-header">
+            <h3>COSTOS DE VIDA</h3>
+        </div>
+        <div class="text-center">
+        <h4>Costos de Hospedaje</h4>
+            <img src="{{ STATIC_URL }}images/hospedaje.png" class="img-polaroid" />
+        </div>
+        <div class="text-center page">
+        <h4>Costos de Alimentación</h4>
+            <img src="{{ STATIC_URL }}images/alimentacion.png" class="img-polaroid" />
+        </div>
+        <div class="text-center page">
+        <h4>Costos de Movilidad</h4>
+            <img src="{{ STATIC_URL }}images/movilidad.png" class="img-polaroid" />
+        </div>
+    </div>
+</div>
+{% endblock %}
